@@ -1,0 +1,21 @@
+Title: 
+Visualization of Perceptron Learning Algorithm with Animated Decision Boundary
+
+Problem Statement:
+Design and implement a Perceptron Neural Network from scratch using Python to classify a linearly separable binary dataset. 
+Generate a 2-dimensional synthetic dataset and train the perceptron using the step activation function. 
+During training, display the intermediate values of input features, weights, and weighted sum ( 𝑤𝑇𝑥). 
+Additionally, visualize the learning process by animating the evolution of the decision boundary over multiple epochs using Matplotlib.
+
+Key Requirements:
+1. Generate a binary classification dataset with two features.
+2. Convert class labels into −1 and +1 for perceptron learning.
+3. Implement the perceptron learning rule manually (without using built-in ML models).
+4. Track and display:  Input vector 𝑋, Weight vector 𝑤, Weighted sum 𝑤𝑇𝑥.
+5. Update weights using the perceptron update rule.
+6. Stop training early if the model converges.
+
+Visualize:
+1. Training data points.
+2. Decision boundary updates at each step.
+3. Animated learning process of the perceptron.
